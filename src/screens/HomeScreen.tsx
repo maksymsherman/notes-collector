@@ -27,7 +27,7 @@ const HomeScreen: React.FC = () => {
           <TouchableOpacity
             style={[styles.button, styles.secondaryButton]}
             activeOpacity={0.85}
-            onPress={() => navigation.navigate('CameraScreen')}
+            onPress={() => navigation.navigate('CameraScreen', {})}
           >
             <Text style={styles.buttonText}>Capture Note</Text>
           </TouchableOpacity>

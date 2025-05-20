@@ -53,7 +53,7 @@
 
 ## 4. MVP Technical Requirements
 4.1. Framework: React Native (Expo)
-4.2. Database: SQLite (local-first)
+4.2. Database: Supabase
 4.3. OCR: Google Gemini API
 4.4. Export: Basic Markdown file generation and sharing
 4.5. TypeScript: Interfaces for core types

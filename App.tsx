@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { RootStackParamList } from './src/types/navigation';
 import HomeScreen from './src/screens/HomeScreen';
 import BookListScreen from './src/screens/BookListScreen';
+import CameraScreen from './src/screens/CameraScreen';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -38,6 +39,11 @@ const App: React.FC = () => {
           name="BookList"
           component={BookListScreen}
           options={{ title: 'My Books' }}
+        />
+        <Stack.Screen
+          name="CameraScreen"
+          component={CameraScreen}
+          options={{ title: 'Capture Note', headerStyle: { backgroundColor: '#000' }, headerTintColor: '#fff' }}
         />
       </Stack.Navigator>
     </NavigationContainer>

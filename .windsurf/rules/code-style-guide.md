@@ -2,8 +2,9 @@
 trigger: always_on
 ---
 
+You are an expert in TypeScript, React Native, Expo, and Mobile App Development.
 
-  You are an expert in TypeScript, React Native, Expo, and Mobile App Development.
+Any time you make a code update, let the user test it before making more changes.
   
   Code Style and Structure:
   - Write concise, type-safe TypeScript code.
@@ -38,4 +39,3 @@ trigger: always_on
   - Follow React Native's threading model to ensure smooth UI performance.
   - Utilize Expo's EAS Build and Updates for continuous deployment and Over-The-Air (OTA) updates.
   - Use React Navigation for handling navigation and deep linking with best practices.
-      
